@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2021-02-04 12:13:51" Creator="Jonathon Green" Comments="" ID="8a455e7f8820cd7d081eecb1ab138b21">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2021-02-04 12:47:25" Creator="Jonathon Green" Comments="" ID="f9e78dcfae8f858d795ad86366ae3a92">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
-    <Library_Version>4.1.1.16</Library_Version>
+    <Library_Version>4.1.1.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -37,7 +37,11 @@
       <Copyright>2002-2007 Jim Kring; 2002 Cal-Bay Systems; 2004 Paul Sullivan; 2004 Michael C. Ashe; 2005-2006 MKS Instruments, Inc. (author: Doug Femec); 2010-2011 Jonathon Green; 2011 Shaun Rumbell; 2011 Darin.K; 2011 Wouter Geelen; 2011 Fabiola De la Cueva; 2011 Phillip Brooks; 2011 Jonas Mellroth; 2011 Ed Dickens</Copyright>
       <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_string</URL>
-      <Release_Notes>[FIX] String to 1D Array.vi tweaked to use a more explicit regular expression to match EOLs at end of spreadsheet string. This was done to fix an odd issue with compilation in LabVIEW 2020. (Issue#12)</Release_Notes>
+      <Release_Notes>## [4.1.1] - 2021-02-04
+### Fixed
+- #1 Improved 1D Array to String to work around LabVIEW RT (Linux) compilation bug.
+
+Thanks to contributors Eric Graham, Antoine Chalons (@antoinechalons) and Jim Kring (@jimkring) for their help/work on this release.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -448,7 +452,7 @@
         <Path>library\String to Character Array.vi</Path>
         <VI_Title>String to Character Array.vi</VI_Title>
       </Items_Data>
-      <GUID>6C59D4326636F9B66A9D3A8E4CA45087</GUID>
+      <GUID>0976ED1738E4A33C4A4E55D252590A38</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
