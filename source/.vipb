@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2021-02-04 11:12:03" Creator="Jonathon Green" Comments="" ID="de65c55be4f32411328dcd5818c2a98d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2021-02-04 12:13:51" Creator="Jonathon Green" Comments="" ID="8a455e7f8820cd7d081eecb1ab138b21">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
-    <Library_Version>4.2.1.15</Library_Version>
+    <Library_Version>4.1.1.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -448,7 +448,7 @@
         <Path>library\String to Character Array.vi</Path>
         <VI_Title>String to Character Array.vi</VI_Title>
       </Items_Data>
-      <GUID>5D00878505A11CCABDE1562C120C7AAF</GUID>
+      <GUID>6C59D4326636F9B66A9D3A8E4CA45087</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
