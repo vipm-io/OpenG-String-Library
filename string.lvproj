@@ -126,6 +126,7 @@
 				<Item Name="Trim Whitespace Lookup Table.vi" Type="VI" URL="../source/support/Trim Whitespace Lookup Table.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="../source/support/End of Line Constant (bug fix).vi"/>
 			</Item>
 			<Item Name="user docs" Type="Folder">
 				<Item Name="License Agreement.txt" Type="Document" URL="../source/user docs/License Agreement.txt"/>
@@ -142,6 +143,7 @@
 			<Item Name="TEST - 1D Array to String.vi" Type="VI" URL="../tests/TEST - 1D Array to String.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
+			<Item Name="TEST - 1D Array to String - EOLs in Array.vi" Type="VI" URL="../tests/TEST - 1D Array to String - EOLs in Array.vi"/>
 			<Item Name="TEST - Convert EOLs.vi" Type="VI" URL="../tests/TEST - Convert EOLs.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
