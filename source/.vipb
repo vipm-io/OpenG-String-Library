@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2021-02-05 15:23:55" Creator="Jonathon Green" Comments="" ID="ec039953421c67a48adf5c63ad72d276">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2021-02-05 15:34:15" Creator="Jonathon Green" Comments="" ID="9367fc449c2a71e76f91c6789d4162b9">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
-    <Library_Version>5.0.0.25</Library_Version>
+    <Library_Version>5.0.0.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -41,6 +41,7 @@
 ### Changed
 - Upgraded sources to LabVIEW 2013
 - Separated compiled code from source files
+- Trim Whitespace now shows as "Trim Whitespace.vi (OpenG)" in QuickDrop and the Palettes, to make it distinct from the one that ships with LabVIEW.
 
 Thanks to contributors Eric Graham (@eric_graham) and Jim Kring (@jimkring) for their help/work on this release.</Release_Notes>
     </Description>
