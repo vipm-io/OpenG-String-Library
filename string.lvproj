@@ -1,6 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="9008000">
+<Project Type="Project" LVVersion="13008000">
+	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -112,7 +116,7 @@
 				<Item Name="To Proper Case.vi" Type="VI" URL="../source/library/To Proper Case.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="../source/library/Trim Whitespace.vi">
+				<Item Name="Trim Whitespace__og.vi" Type="VI" URL="../source/library/Trim Whitespace__og.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Variant Array to Spreadsheet.vi" Type="VI" URL="../source/library/Variant Array to Spreadsheet.vi">
@@ -186,7 +190,7 @@
 			<Item Name="TEST - To Proper Case.vi" Type="VI" URL="../tests/TEST - To Proper Case.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
-			<Item Name="TEST - Trim Whitespace.vi" Type="VI" URL="../tests/TEST - Trim Whitespace.vi">
+			<Item Name="TEST - Trim Whitespace__og.vi" Type="VI" URL="../tests/TEST - Trim Whitespace__og.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 			<Item Name="TEST - Variant Array to Spreadsheet.vi" Type="VI" URL="../tests/TEST - Variant Array to Spreadsheet.vi">
