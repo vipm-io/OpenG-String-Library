@@ -9,6 +9,9 @@
 		<Item Name="Setup - Forrmat Variant Into String.vi" Type="VI" URL="../support/Setup - Forrmat Variant Into String.vi"/>
 		<Item Name="Teardown - Forrmat Variant Into String.vi" Type="VI" URL="../support/Teardown - Forrmat Variant Into String.vi"/>
 	</Item>
+	<Item Name="vendored" Type="Folder">
+		<Item Name="Current VI&apos;s Path__ogtk__VENDORED_string_tests.vi" Type="VI" URL="../vendored/Current VI&apos;s Path__ogtk__VENDORED_string_tests.vi"/>
+	</Item>
 	<Item Name="TEST - 1D Array to String - EOLs in Array.vi" Type="VI" URL="../TEST - 1D Array to String - EOLs in Array.vi"/>
 	<Item Name="TEST - 1D Array to String.vi" Type="VI" URL="../TEST - 1D Array to String.vi"/>
 	<Item Name="TEST - Convert EOLs.vi" Type="VI" URL="../TEST - Convert EOLs.vi"/>
