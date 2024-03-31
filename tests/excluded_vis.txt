@@ -1,0 +1,5 @@
+VI Tree - string.vi
+Comment.vi
+
+# ignoring for 6.0 release because we never had full test coverage
+TEST - Format Variant Into String.vi
