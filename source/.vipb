@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2024-03-31 00:36:35" Creator="Jonathon Green" Comments="" ID="1da09e5cfdaeda54adbb912605c15fb0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2024-03-31 00:57:09" Creator="Jonathon Green" Comments="" ID="95d5cfdf9acdc62b407d2926a536f8bb">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
-    <Library_Version>6.0.0.26</Library_Version>
+    <Library_Version>6.0.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,10 +17,10 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
-      <External_Dependencies>oglib_lvdata &gt;= 4.1.0.16</External_Dependencies>
-      <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
-      <Direct_Dependencies>oglib_lvdata-4.1.0.16</Direct_Dependencies>
+      <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
+      <External_Dependencies>oglib_lvdata &gt;= 6.0.0.42</External_Dependencies>
+      <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvdata-6.0.0.42</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>..\build support\Pre-Build VI - Run Unit Tests.vi</Pre-Build_VI>
@@ -37,7 +37,15 @@
       <Copyright>2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_string/</URL>
-      <Release_Notes/>
+      <Release_Notes>- Requires LabVIEW 2020 or greater
+- Moved library VIs into Library (`openg_string.lvlib`) #10
+- Upgraded source code to LV2020 format #8
+- Marked all as Separate Compiled Code #9
+
+Kudos to contributors @Bas-vE and @jimkring for their work on this release.
+
+Important: Callers of this package will relink automatically to the new Library (`openg_string.lvlib) that contains this package. However, if you subsequently downgrade this package to version 5.x or older, your callers will need to be manually relinked to the older version (without the Library namespace).
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
