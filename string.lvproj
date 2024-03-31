@@ -40,91 +40,7 @@
 				<Item Name="palette.png" Type="Document" URL="../source/images/palette.png"/>
 			</Item>
 			<Item Name="library" Type="Folder">
-				<Item Name="Convert EOLs" Type="Folder">
-					<Item Name="Convert EOLs (String Array).vi" Type="VI" URL="../source/library/Convert EOLs/Convert EOLs (String Array).vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-					<Item Name="Convert EOLs (String).vi" Type="VI" URL="../source/library/Convert EOLs/Convert EOLs (String).vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-				</Item>
-				<Item Name="To Camel Case" Type="Folder">
-					<Item Name="To Camel Case (String Array).vi" Type="VI" URL="../source/library/To Camel Case/To Camel Case (String Array).vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-					<Item Name="To Camel Case (String).vi" Type="VI" URL="../source/library/To Camel Case/To Camel Case (String).vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-				</Item>
-				<Item Name="To Proper Case" Type="Folder">
-					<Item Name="To Proper Case (String Array).vi" Type="VI" URL="../source/library/To Proper Case/To Proper Case (String Array).vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-					<Item Name="To Proper Case (String).vi" Type="VI" URL="../source/library/To Proper Case/To Proper Case (String).vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-				</Item>
-				<Item Name="Trim Whitespace" Type="Folder">
-					<Item Name="Trim Whitespace (String Array).vi" Type="VI" URL="../source/library/Trim Whitespace/Trim Whitespace (String Array).vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-					<Item Name="Trim Whitespace (String).vi" Type="VI" URL="../source/library/Trim Whitespace/Trim Whitespace (String).vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-				</Item>
-				<Item Name="1D Array to String.vi" Type="VI" URL="../source/library/1D Array to String.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Comment.vi" Type="VI" URL="../source/library/Comment.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Convert EOLs.vi" Type="VI" URL="../source/library/Convert EOLs.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Format Variant Into String.vi" Type="VI" URL="../source/library/Format Variant Into String.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Multi-line String to Array.vi" Type="VI" URL="../source/library/Multi-line String to Array.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Number to Proper Engl Text.vi" Type="VI" URL="../source/library/Number to Proper Engl Text.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Place Number to Proper Engl Text.vi" Type="VI" URL="../source/library/Place Number to Proper Engl Text.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Resolve Timestamp Format.vi" Type="VI" URL="../source/library/Resolve Timestamp Format.vi"/>
-				<Item Name="Scan Variant from String.vi" Type="VI" URL="../source/library/Scan Variant from String.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Search or Split String.vi" Type="VI" URL="../source/library/Search or Split String.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Slice String 1.vi" Type="VI" URL="../source/library/Slice String 1.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Slice String.vi" Type="VI" URL="../source/library/Slice String.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="String to 1D Array.vi" Type="VI" URL="../source/library/String to 1D Array.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="String to Character Array.vi" Type="VI" URL="../source/library/String to Character Array.vi"/>
-				<Item Name="To Camel Case.vi" Type="VI" URL="../source/library/To Camel Case.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="To Proper Case.vi" Type="VI" URL="../source/library/To Proper Case.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Trim Whitespace__og.vi" Type="VI" URL="../source/library/Trim Whitespace__og.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Variant Array to Spreadsheet.vi" Type="VI" URL="../source/library/Variant Array to Spreadsheet.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="VI Tree - string.vi" Type="VI" URL="../source/library/VI Tree - string.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
+				<Item Name="openg_string.lvlib" Type="Library" URL="../source/library/openg_string.lvlib"/>
 			</Item>
 			<Item Name="support" Type="Folder">
 				<Item Name="Trim Whitespace Lookup Table.vi" Type="VI" URL="../source/support/Trim Whitespace Lookup Table.vi">
@@ -139,64 +55,11 @@
 			<Item Name=".vipc" Type="Document" URL="../source/.vipc"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
-			<Item Name="support" Type="Folder">
-				<Item Name="Format Variant Into String.txt" Type="Document" URL="../tests/support/Format Variant Into String.txt"/>
-				<Item Name="Setup - Forrmat Variant Into String.vi" Type="VI" URL="../tests/support/Setup - Forrmat Variant Into String.vi"/>
-				<Item Name="Teardown - Forrmat Variant Into String.vi" Type="VI" URL="../tests/support/Teardown - Forrmat Variant Into String.vi"/>
-			</Item>
-			<Item Name="TEST - 1D Array to String.vi" Type="VI" URL="../tests/TEST - 1D Array to String.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - 1D Array to String - EOLs in Array.vi" Type="VI" URL="../tests/TEST - 1D Array to String - EOLs in Array.vi"/>
-			<Item Name="TEST - Convert EOLs.vi" Type="VI" URL="../tests/TEST - Convert EOLs.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Format Variant Into String.vi" Type="VI" URL="../tests/TEST - Format Variant Into String.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Multi-line String to Array.vi" Type="VI" URL="../tests/TEST - Multi-line String to Array.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Number to Proper Engl Text.vi" Type="VI" URL="../tests/TEST - Number to Proper Engl Text.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Place Number to Proper Engl Text.vi" Type="VI" URL="../tests/TEST - Place Number to Proper Engl Text.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Resolve Timestamp Format.vi" Type="VI" URL="../tests/TEST - Resolve Timestamp Format.vi"/>
-			<Item Name="TEST - Scan Variant from String.vi" Type="VI" URL="../tests/TEST - Scan Variant from String.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Search or Split String.vi" Type="VI" URL="../tests/TEST - Search or Split String.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Slice String 1.vi" Type="VI" URL="../tests/TEST - Slice String 1.vi"/>
-			<Item Name="TEST - Slice String.vi" Type="VI" URL="../tests/TEST - Slice String.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - String to 1D Array.vi" Type="VI" URL="../tests/TEST - String to 1D Array.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - String to Character Array.vi" Type="VI" URL="../tests/TEST - String to Character Array.vi"/>
-			<Item Name="TEST - TEMPLATE_SCALAR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_SCALAR.vit">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - TEMPLATE_VECTOR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_VECTOR.vit">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - To Camel Case.vi" Type="VI" URL="../tests/TEST - To Camel Case.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - To Proper Case.vi" Type="VI" URL="../tests/TEST - To Proper Case.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Trim Whitespace__og.vi" Type="VI" URL="../tests/TEST - Trim Whitespace__og.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Variant Array to Spreadsheet.vi" Type="VI" URL="../tests/TEST - Variant Array to Spreadsheet.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
 			<Item Name="excluded_vis.txt" Type="Document" URL="../../OpenG-Comparison-Library/tests/excluded_vis.txt"/>
+			<Item Name="test_openg_string.lvlib" Type="Library" URL="../tests/test_openg_string.lvlib"/>
+		</Item>
+		<Item Name="VI Tree - string.vi" Type="VI" URL="../source/library/VI Tree - string.vi">
+			<Property Name="marked" Type="Int">0</Property>
 		</Item>
 		<Item Name="test.vi" Type="VI" URL="../test.vi">
 			<Property Name="marked" Type="Int">0</Property>
@@ -233,9 +96,6 @@
 				<Item Name="openg_array__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array__ogtk.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="LVBookmarkInfoTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBookmarkInfoTypeDef.ctl"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
