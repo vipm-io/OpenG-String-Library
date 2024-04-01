@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2024-03-31 01:04:21" Creator="Jonathon Green" Comments="" ID="b40eb3d625d1eef2e32a3b94f6b11b0d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2024-04-01 12:52:34" Creator="Jonathon Green" Comments="" ID="fb5df5a744bd9e01639439faa624b6c0">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
-    <Library_Version>6.0.0.31</Library_Version>
+    <Library_Version>6.0.1.35</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -18,9 +18,9 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
-      <External_Dependencies>oglib_lvdata &gt;= 6.0.0.42</External_Dependencies>
+      <External_Dependencies>oglib_lvdata &gt;= 6.0.0.45</External_Dependencies>
       <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
-      <Direct_Dependencies>oglib_lvdata-6.0.0.42</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvdata-6.0.0.45</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>..\build support\Pre-Build VI - Run Unit Tests.vi</Pre-Build_VI>
@@ -37,7 +37,8 @@
       <Copyright>2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_string/</URL>
-      <Release_Notes>- Requires LabVIEW 2020 or greater
+      <Release_Notes>- [6.0.1] Hotfix to remove "__ogtk" suffix from lvlib name
+- Requires LabVIEW 2020 or greater
 - Moved library VIs into Library (`openg_string.lvlib`) #10
 - Upgraded source code to LV2020 format #8
 - Marked all as Separate Compiled Code #9
@@ -145,6 +146,11 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library/Trim Whitespace__og.vi</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>tk</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>library/openg_string.lvlib</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
         <Path>images</Path>
@@ -459,7 +465,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\String to Character Array.vi</Path>
         <VI_Title>String to Character Array.vi</VI_Title>
       </Items_Data>
-      <GUID>127A46FAB94088D15C9687F7968D7D18</GUID>
+      <GUID>2B0B62173881B53450957E70AC278772</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
