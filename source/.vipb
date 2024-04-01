@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2024-04-01 12:52:34" Creator="Jonathon Green" Comments="" ID="fb5df5a744bd9e01639439faa624b6c0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-07 17:22:49" Modified_Date="2024-04-01 12:57:07" Creator="Jonathon Green" Comments="" ID="6d3410bd2c656ebf89b41211e9a7e61e">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
-    <Library_Version>6.0.1.35</Library_Version>
+    <Library_Version>6.0.2.36</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -37,7 +37,8 @@
       <Copyright>2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_string/</URL>
-      <Release_Notes>- [6.0.1] Hotfix to remove "__ogtk" suffix from lvlib name
+      <Release_Notes>- [6.0.2] Hotfix to upgrade dependency on new OpenG Variant Data Library
+- [6.0.1] Hotfix to remove "__ogtk" suffix from lvlib name
 - Requires LabVIEW 2020 or greater
 - Moved library VIs into Library (`openg_string.lvlib`) #10
 - Upgraded source code to LV2020 format #8
